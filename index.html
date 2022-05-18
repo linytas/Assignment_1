@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form_container">
+        <form name="'form">
+          <!-- heading -->
+          <div class="heading">
+            <h2>Sign Up</h2>
+          </div>
+
+          <!-- name -->
+          <div class="form_wrap fullname">
+            <div class="form_item">
+              <input type="text" placeholder="First Name" />
+            </div>
+            <div class="form_item">
+              <input type="text" placeholder="Last Name" />
+            </div>
+          </div>
+
+          <!-- mobile number -->
+          <div class="form_wrap">
+            <div class="form_item">
+              <input type="text" placeholder="Mobile No." />
+            </div>
+          </div>
+
+          <!-- email -->
+          <div class="form_wrap">
+            <div class="form_item">
+              <input type="text" placeholder="Email Address" />
+            </div>
+          </div>
+
+          <!-- password -->
+          <div class="form_wrap password">
+            <div class="form_item">
+              <input type="text" placeholder="Password" />
+            </div>
+            <div class="form_item">
+              <input type="text" placeholder="Confirm Password" />
+            </div>
+          </div>
+
+          <!-- agreement -->
+          <div class="form_wrap agreement">
+            <div class="form_item">
+              <input type="checkbox" id="check" />
+              <label for="check"><strong>I Agree</strong></label>
+            </div>
+
+            <div class="form_item">
+              <p>
+                By clicking <span id="hint">Register</span>, you agree to the
+                <a id="term" href="#">Terms and Conditions</a> set out by this
+                site, including our Cookie Use.
+              </p>
+            </div>
+          </div>
+
+          <!-- buttons -->
+          <div class="form_wrap btn">
+            <div class="form_item">
+              <input type="submit" id="register" value="Register" />
+            </div>
+
+            <div class="form_item">
+              <input type="submit" id="sign_in" value="Sign In" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
